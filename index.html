@@ -3,24 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Portfolio</title>
-  <meta name="description" content="Portfolio of Your Name, a first-year programming student.">
+  <title>Sivaranjini | Portfolio</title>
+  <meta name="description" content="Portfolio of Sivaranjini, a first-year programming student.">
 
-  <!-- Fonts (fall back to system fonts if offline) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!-- Marks the page as JS-enabled so the skill bars can animate -->
   <script>document.documentElement.classList.add('js');</script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- ============ HEADER / NAVIGATION ============ -->
   <header class="site-header">
-    <a class="brand" href="#top">Your Name</a>
+    <a class="brand" href="#top">Sivaranjini</a>
 
     <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav">
       Menu
@@ -37,10 +34,9 @@
 
   <main id="main">
 
-    <!-- ============ HERO ============ -->
     <section class="hero" id="top">
       <h1>
-        <span class="line">Hi, I'm Your Name.</span>
+        <span class="line">Hi, I'm Sivaranjini.</span>
         <span class="line accent">I'm learning to build software.</span>
       </h1>
       <p class="hero-text">
@@ -53,128 +49,99 @@
       </div>
     </section>
 
-    <!-- ============ ABOUT ME ============ -->
     <section class="section" id="about">
       <h2>About me</h2>
       <div class="about-grid">
-        <div class="avatar" aria-hidden="true">YN</div>
+        <div class="avatar" aria-hidden="true">PR</div>
         <div class="about-text">
           <p>
-            I'm a first-year student studying programming. I enjoy turning a problem into
-            small steps and then into working code.
+            I'm a first-year programming student who learns by building. I enjoy breaking
+            a hard problem into small steps and turning it into working code.
           </p>
           <p>
             Right now I'm practising Python, data structures and algorithms, and SQL, and
-            building small projects to apply what I learn.
+            preparing for technical interviews. I'm looking for chances to learn from real
+            projects and grow as a developer.
           </p>
           <ul class="facts">
-            <li><strong>Studying:</strong> Your course / college name</li>
-            <li><strong>Location:</strong> Your city</li>
-            <li><strong>Interests:</strong> Web development, problem solving</li>
+            <li><strong>Studying:</strong> BTECH CSE / SRM</li> 
+            <li><strong>Location:</strong> Chennai</li> 
+            <li><strong>Interests:</strong> Competitive programming, problem solving</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- ============ SKILLS ============ -->
     <section class="section" id="skills">
       <h2>Skills</h2>
       <p class="section-intro">How comfortable I am with each tool right now.</p>
 
       <div class="skills-grid">
-        <!-- Change --level to any value from 0% to 100% -->
-        <div class="skill" style="--level: 80%">
-          <div class="skill-head"><span>Python</span><span>80%</span></div>
+        <div class="skill" style="--level: 60%">
+          <div class="skill-head"><span>Python</span><span>60%</span></div>
           <div class="bar"><span></span></div>
         </div>
-        <div class="skill" style="--level: 65%">
-          <div class="skill-head"><span>Data structures &amp; algorithms</span><span>65%</span></div>
-          <div class="bar"><span></span></div>
-        </div>
-        <div class="skill" style="--level: 70%">
-          <div class="skill-head"><span>SQL</span><span>70%</span></div>
-          <div class="bar"><span></span></div>
-        </div>
-        <div class="skill" style="--level: 75%">
-          <div class="skill-head"><span>HTML &amp; CSS</span><span>75%</span></div>
+        <div class="skill" style="--level: 45%">
+          <div class="skill-head"><span>Data structures &amp; algorithms</span><span>45%</span></div>
           <div class="bar"><span></span></div>
         </div>
         <div class="skill" style="--level: 50%">
-          <div class="skill-head"><span>JavaScript</span><span>50%</span></div>
+          <div class="skill-head"><span>SQL</span><span>50%</span></div>
           <div class="bar"><span></span></div>
         </div>
         <div class="skill" style="--level: 60%">
-          <div class="skill-head"><span>Git &amp; GitHub</span><span>60%</span></div>
+          <div class="skill-head"><span>HTML &amp; CSS</span><span>60%</span></div>
+          <div class="bar"><span></span></div>
+        </div>
+        <div class="skill" style="--level: 35%">
+          <div class="skill-head"><span>JavaScript</span><span>35%</span></div>
+          <div class="bar"><span></span></div>
+        </div>
+        <div class="skill" style="--level: 40%">
+          <div class="skill-head"><span>Git &amp; GitHub</span><span>40%</span></div>
           <div class="bar"><span></span></div>
         </div>
       </div>
     </section>
 
-    <!-- ============ PROJECTS ============ -->
     <section class="section" id="projects">
       <h2>Projects</h2>
-      <p class="section-intro">Replace these three with your own work.</p>
+      <p class="section-intro">My first project is this website. More are on the way.</p>
 
       <div class="cards">
         <article class="card">
-          <h3>Number guessing game</h3>
-          <p>A command-line game in Python that tracks attempts and gives higher/lower hints.</p>
-          <ul class="tags"><li>Python</li><li>Loops</li></ul>
+          <h3>Personal portfolio website</h3>
+          <p>A responsive website with About, Skills, Projects, Achievements and Contact sections, published with GitHub Pages.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
           <div class="card-links">
-            <a href="#" target="_blank" rel="noopener">View code</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>Student records database</h3>
-          <p>A SQL schema with tables for students, courses and marks, plus queries for reports.</p>
-          <ul class="tags"><li>SQL</li><li>Joins</li></ul>
-          <div class="card-links">
-            <a href="#" target="_blank" rel="noopener">View code</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>Sorting visualiser</h3>
-          <p>A web page that animates bubble sort and merge sort so the steps are easy to follow.</p>
-          <ul class="tags"><li>JavaScript</li><li>DSA</li></ul>
-          <div class="card-links">
-            <a href="#" target="_blank" rel="noopener">View code</a>
-            <a href="#" target="_blank" rel="noopener">Live demo</a>
+            <a href="https://github.com/sivaranjini1706/Portfolio" target="_blank" rel="noopener">View code</a>
+            <a href="https://sivaranjini1706.github.io/Portfolio/" target="_blank" rel="noopener">Live site</a>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- ============ ACHIEVEMENTS ============ -->
     <section class="section" id="achievements">
       <h2>Achievements</h2>
+     
       <ol class="timeline">
         <li>
           <span class="when">2026</span>
           <div>
-            <h3>Your most recent achievement</h3>
-            <p>A hackathon, a certificate, a course you finished, or a contest you took part in.</p>
+            <h3>Published my first website</h3>
+            <p>Built this portfolio with HTML, CSS and JavaScript and put it online with GitHub Pages.</p>
           </div>
         </li>
         <li>
           <span class="when">2026</span>
           <div>
-            <h3>Another achievement</h3>
-            <p>Say what you did and what you learned from it, in one or two sentences.</p>
-          </div>
-        </li>
-        <li>
-          <span class="when">2025</span>
-          <div>
-            <h3>An earlier achievement</h3>
-            <p>Academic results, a school competition, or a first project all count.</p>
+            <h3>Preparing for technical interviews</h3>
+            <p>Practising programming basics, Python, data structures and algorithms, and SQL.</p>
           </div>
         </li>
       </ol>
     </section>
 
-    <!-- ============ CONTACT ============ -->
     <section class="section" id="contact">
       <h2>Contact</h2>
       <p class="section-intro">Send me a message and your email app will open with it filled in.</p>
@@ -195,16 +162,15 @@
         </form>
 
         <ul class="contact-links">
-          <li><a href="mailto:you@example.com">you@example.com</a></li>
-          <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:sivaranjini.dev17@gmail.com"></a></li>
+          <li><a href="https://github.com/sivaranjini1706" target="_blank" rel="noopener">GitHub</a></li>
         </ul>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Your Name</p>
+    <p>&copy; <span id="year"></span> Sivaranjini</p>
   </footer>
 
   <script src="script.js"></script>
