@@ -39,7 +39,7 @@ if ('IntersectionObserver' in window) {
 // with the message already filled in.
 const form = document.getElementById('contactForm');
 const formStatus = document.getElementById('formStatus');
-const MY_EMAIL = 'sivaranjinipr1706@gmail.com'; // <-- change this to your email
+const MY_EMAIL = 'sivaranjini.dev17@gmail.com'; // <-- change this to your email
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
