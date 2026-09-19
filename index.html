@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name, a first-year programming student.">
+
+  <!-- Fonts (fall back to system fonts if offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Marks the page as JS-enabled so the skill bars can animate -->
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header">
+    <a class="brand" href="#top">Your Name</a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav">
+      Menu
+    </button>
+
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <h1>
+        <span class="line">Hi, I'm Your Name.</span>
+        <span class="line accent">I'm learning to build software.</span>
+      </h1>
+      <p class="hero-text">
+        First-year programming student working on Python, data structures and SQL.
+        Below you'll find what I know, what I've built and how to reach me.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">See my projects</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ME ============ -->
+    <section class="section" id="about">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <div class="avatar" aria-hidden="true">YN</div>
+        <div class="about-text">
+          <p>
+            I'm a first-year student studying programming. I enjoy turning a problem into
+            small steps and then into working code.
+          </p>
+          <p>
+            Right now I'm practising Python, data structures and algorithms, and SQL, and
+            building small projects to apply what I learn.
+          </p>
+          <ul class="facts">
+            <li><strong>Studying:</strong> Your course / college name</li>
+            <li><strong>Location:</strong> Your city</li>
+            <li><strong>Interests:</strong> Web development, problem solving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <p class="section-intro">How comfortable I am with each tool right now.</p>
+
+      <div class="skills-grid">
+        <!-- Change --level to any value from 0% to 100% -->
+        <div class="skill" style="--level: 80%">
+          <div class="skill-head"><span>Python</span><span>80%</span></div>
+          <div class="bar"><span></span></div>
+        </div>
+        <div class="skill" style="--level: 65%">
+          <div class="skill-head"><span>Data structures &amp; algorithms</span><span>65%</span></div>
+          <div class="bar"><span></span></div>
+        </div>
+        <div class="skill" style="--level: 70%">
+          <div class="skill-head"><span>SQL</span><span>70%</span></div>
+          <div class="bar"><span></span></div>
+        </div>
+        <div class="skill" style="--level: 75%">
+          <div class="skill-head"><span>HTML &amp; CSS</span><span>75%</span></div>
+          <div class="bar"><span></span></div>
+        </div>
+        <div class="skill" style="--level: 50%">
+          <div class="skill-head"><span>JavaScript</span><span>50%</span></div>
+          <div class="bar"><span></span></div>
+        </div>
+        <div class="skill" style="--level: 60%">
+          <div class="skill-head"><span>Git &amp; GitHub</span><span>60%</span></div>
+          <div class="bar"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <p class="section-intro">Replace these three with your own work.</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Number guessing game</h3>
+          <p>A command-line game in Python that tracks attempts and gives higher/lower hints.</p>
+          <ul class="tags"><li>Python</li><li>Loops</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">View code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Student records database</h3>
+          <p>A SQL schema with tables for students, courses and marks, plus queries for reports.</p>
+          <ul class="tags"><li>SQL</li><li>Joins</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">View code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Sorting visualiser</h3>
+          <p>A web page that animates bubble sort and merge sort so the steps are easy to follow.</p>
+          <ul class="tags"><li>JavaScript</li><li>DSA</li></ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">View code</a>
+            <a href="#" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="section" id="achievements">
+      <h2>Achievements</h2>
+      <ol class="timeline">
+        <li>
+          <span class="when">2026</span>
+          <div>
+            <h3>Your most recent achievement</h3>
+            <p>A hackathon, a certificate, a course you finished, or a contest you took part in.</p>
+          </div>
+        </li>
+        <li>
+          <span class="when">2026</span>
+          <div>
+            <h3>Another achievement</h3>
+            <p>Say what you did and what you learned from it, in one or two sentences.</p>
+          </div>
+        </li>
+        <li>
+          <span class="when">2025</span>
+          <div>
+            <h3>An earlier achievement</h3>
+            <p>Academic results, a school competition, or a first project all count.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p class="section-intro">Send me a message and your email app will open with it filled in.</p>
+
+      <div class="contact-grid">
+        <form id="contactForm" class="form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <ul class="contact-links">
+          <li><a href="mailto:you@example.com">you@example.com</a></li>
+          <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
